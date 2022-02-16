@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: inherit;
+    text-decoration: none;
+    vertical-align: top;
+    
+}
+button,input,select{border: 0; background-color: rgba(0,0,0,0);}
+
+html{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+header{}
+
+header .wrap{
+    width:100%;
+    height:150px;
+    margin:0 auto;
+    position:fixed;
+    top:0;
+    left:50%;
+    transform: translateX(-50%);
+    background-color: rgba(255,255,255,0.6);
+}
+
+header .wrap h1{
+    text-align:center;
+    padding-top:15px;
+}
+header .wrap .util{
+    display:flex;
+    position:absolute;
+    top:30px;
+    left:10px;
+}
+header .wrap .util li{
+    margin-left:40px;   
+}
+header .wrap .gnb{
+    display:flex;
+    position:absolute;
+    top:120px;
+}
+header .wrap .gnb li{
+    margin-left:40px;
+}
+
+
+
+header .wrap form{
+    position:absolute;
+    top:0;
+    right:0;
+}
+header .wrap form input{
+    width:500px;
+    padding:30px;
+
+}
+header .wrap form .btn{
+    display:flex;
+    justify-content: space-between;
+    padding-top:40px;
+}
+header .wrap form .btn .btn-deli{}
+header .wrap form .btn .btn-wrap{}
+
+
+.banner{
+    position:relative;
+}
+.banner a{}
+.banner a img{
+    width:100%;
+}
+.banner div{
+    position:absolute;
+    bottom:20px;
+    left:50%;
+    transform: translateX(-50%);
+    
+}
+.banner div button{
+    background-color:deeppink;
+    border: 1px solid chartreuse;
+    width:30px;
+    height:30px;    
+    border-radius: 50%;
+    margin:0 20px;
+}
+
+
+
+footer{}
+footer .wrap{
+    width:1400px;
+    height:300px;
+    margin:0 auto;
+    position: relative;
+}
+
+footer .wrap .sns-wrap{
+    position:absolute;
+    top:15px;
+    right:0;
+}
+footer .wrap h2{
+    margin-bottom:30px;
+    text-align:center;
+    
+}
+footer .wrap h3{
+    margin-bottom:15px;
+}
+footer .wrap .sns{
+    display:flex;
+}
+footer .wrap .sns li{
+    margin-left:10px;
+}
+footer .wrap .sns li:first-child{
+    margin:0;
+}
+footer .wrap .gnb-footer{
+    display:flex;
+    padding:15px 0;   
+}
+footer .wrap .container{
+    width:760px;
+    display:flex;
+    justify-content: space-between;
+    
+}
+footer .wrap .gnb-footer li{
+    margin-left:30px;
+}
+footer .wrap .gnb-footer li:first-child{
+    margin:0;
+}
+
+footer .wrap .copyright{
+    position:absolute;
+    bottom:0;
+    left:50%;
+    transform: translateX(-50%);
+} 
+
+
+footer .wrap .container .call li:first-child{
+    text-align:right;   
+}
+footer .wrap .container .call li:last-child{
+    text-align:right;
+}
